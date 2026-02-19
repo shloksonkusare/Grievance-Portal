@@ -1,5 +1,9 @@
 # Grievance-Portal
 
+**Make sure you have following versions of the setup installed**.
+- Node JS 22.21.1 LTS
+- Python 3.10.11 
+
 ## Dataset Links and Directory Structure
 
 - Road & Garbage Dataset: https://data.mendeley.com/datasets/zndzygc3p3/2
