@@ -28,18 +28,23 @@ const complaintSchema = new mongoose.Schema({
     type: String,
     required: true,
     enum: [
-      'DamagedRoads', 'ElectricityIssues', 'GarbageAndSanitation'
-      // 'road_damage',
-      // 'street_light',
-      // 'water_supply',
-      // 'sewage',
-      // 'garbage',
-      // 'encroachment',
-      // 'noise_pollution',
-      // 'illegal_construction',
-      // 'traffic',
-      // 'other'
-    ],
+    // New categories (3) - from AI model
+    'DamagedRoads',
+    'ElectricityIssues',
+    'GarbageAndSanitation',
+    
+    // // Legacy categories (10) - for backward compatibility
+    // 'road_damage',
+    // 'street_light',
+    // 'water_supply',
+    // 'sewage',
+    // 'garbage',
+    // 'encroachment',
+    // 'noise_pollution',
+    // 'illegal_construction',
+    // 'traffic',
+    // 'other'
+  ],
     index: true,
   },
   
