@@ -30,7 +30,7 @@ const VALID_CATEGORIES = new Set([
 ]);
 
 // Default fallback category when classification fails (must be in VALID_CATEGORIES)
-const DEFAULT_CATEGORY = 'GarbageAndSanitation';
+const DEFAULT_CATEGORY = 'DamagedRoads';
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
 

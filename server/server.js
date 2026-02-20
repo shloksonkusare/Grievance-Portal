@@ -120,10 +120,7 @@ app.use((req, res) => {
 const startServer = async () => {
   try {
     // Connect to MongoDB
-    await mongoose.connect(config.mongoUri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    await mongoose.connect(config.mongoUri);
     console.log('✅ Connected to MongoDB');
 
     // Create indexes (drop conflicting indexes first)
